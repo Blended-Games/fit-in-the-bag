@@ -26,31 +26,31 @@ public class ObjectSelector : MonoBehaviour
     {
         if (ID == 0)
             startPos = new Vector3(0f, 0.5f, -1f);
-        if (ID == 1)
-            startPos = new Vector3(0f, 0.5f, -2f);
-        if (ID == 2)
-            startPos = new Vector3(0f, 0.5f, -2f);
-        if (ID == 3)
-            startPos = new Vector3(-1.35f, 0.5f, -1.55f);
-        if (ID == 4)
+        if (ID == 1)// bitti
+            startPos = new Vector3(-0.4f, 0.5f, -2f);
+        if (ID == 2)//bitti
+            startPos = new Vector3(-0.4f, 0.5f, -2.5f);
+        if (ID == 3)//bitti
+            startPos = new Vector3(-0.55f, 0.5f, -2.55f);
+        if (ID == 4)//bitti
             startPos = new Vector3(-0.05f, 0.5f, -4.05f);
-        if (ID == 5)
-            startPos = new Vector3(-1.05f, 0.5f, -1f);
-        if (ID == 6)
-            startPos = new Vector3(-1.05f, 0.5f, -1f);
-        if (ID == 7)
-            startPos = new Vector3(-0.5f, 0.5f, -1.55f);
-        if (ID == 8)
-            startPos = new Vector3(0f, 0.5f, -0.25f);
-        if (ID == 9)
-            startPos = new Vector3(-0.15f, 0.5f, -2.45f);
-        if (ID == 10)
-            startPos = new Vector3(-0.55f, 0.5f, -0.85f);
-        if (ID == 11)
-            startPos = new Vector3(-0.15f, 0.5f, -0.85f);
-        if (ID == 12)
-            startPos = new Vector3(-0.05f, 0.5f, -0.85f);
-        if (ID == 13)
+        if (ID == 5)//bitti
+            startPos = new Vector3(0.05f, 0.5f, -2.8f);
+        if (ID == 6)//bitti
+            startPos = new Vector3(-0.15f, 0.5f, -3f);
+        if (ID == 7)//bitti
+            startPos = new Vector3(-0.5f, 0.5f, -2.95f);
+        if (ID == 8)//bitti
+            startPos = new Vector3(0f, 0.5f, -2.85f);
+        if (ID == 9)//bitti
+            startPos = new Vector3(-0.55f, 0.5f, -3.65f);
+        if (ID == 10)//bitti
+            startPos = new Vector3(-0.45f, 0.5f, -2.75f);
+        if (ID == 11)//bitti
+            startPos = new Vector3(0.05f, 0.5f, -2.95f);
+        if (ID == 12)// bitti
+            startPos = new Vector3(0f, 1.5f, -2.65f);
+        if (ID == 13)//
             startPos = new Vector3(-0.15f, 0.5f, -0.85f);
 
 
