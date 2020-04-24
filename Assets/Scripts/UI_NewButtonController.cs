@@ -29,12 +29,12 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
         for (int i = 0; i < categoryImages.Length; i++)
         { 
             backRandom = categoryImages[i].selectedImage.Length;
-            Debug.Log(random);
+            //Debug.Log(random);
         }
 
         random = Random.Range(0, backRandom);
-        Debug.Log("Image List Count : " +categoryImages.Length);
-        Debug.Log("Random number : " + random);
+        //Debug.Log("Image List Count : " +categoryImages.Length);
+        //Debug.Log("Random number : " + random);
     }
 
     private void Start()
@@ -47,7 +47,7 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
         buttons = GameObject.FindGameObjectsWithTag("clickableObjects");
         foreach (GameObject clickedbuttons in buttons)
         {
-            Debug.Log("Disabled");
+            //Debug.Log("Disabled");
             clickedbuttons.GetComponent<Image>().color = new Color32(255, 255, 255, 145);
             clickedbuttons.GetComponent<UI_NewButtonController>().isClicked = true;
         }
@@ -211,7 +211,7 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        Debug.Log("pointerup");
+        //Debug.Log("pointerup");
         if (!firstClick)
         {
             firstClick = true;

@@ -44,8 +44,8 @@ public class ErrorController : MonoBehaviour
         {
             callErrorMaterial();
             Controller.GetComponent<ObjectController>().isPlaceable = false;
-
         }
+
     }
 
     private void OnTriggerExit(Collider other)

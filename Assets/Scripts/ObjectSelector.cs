@@ -27,13 +27,13 @@ public class ObjectSelector : MonoBehaviour
         if (ID == 0)
             startPos = new Vector3(0f, 0.5f, -1f);
         if (ID == 1)
-            startPos = new Vector3(0f, 0.5f, -0.25f);
+            startPos = new Vector3(0f, 0.5f, -2f);
         if (ID == 2)
-            startPos = new Vector3(-1f, 0.5f, -1f);
+            startPos = new Vector3(0f, 0.5f, -2f);
         if (ID == 3)
-            startPos = new Vector3(0.15f, 0.5f, -1f);
+            startPos = new Vector3(-1.35f, 0.5f, -1.55f);
         if (ID == 4)
-            startPos = new Vector3(-1.55f, 0.5f, -1f);
+            startPos = new Vector3(-0.05f, 0.5f, -4.05f);
         if (ID == 5)
             startPos = new Vector3(-1.05f, 0.5f, -1f);
         if (ID == 6)
@@ -45,11 +45,11 @@ public class ObjectSelector : MonoBehaviour
         if (ID == 9)
             startPos = new Vector3(-0.15f, 0.5f, -2.45f);
         if (ID == 10)
-            startPos = new Vector3(-0.15f, 0.5f, -0.85f);
+            startPos = new Vector3(-0.55f, 0.5f, -0.85f);
         if (ID == 11)
             startPos = new Vector3(-0.15f, 0.5f, -0.85f);
         if (ID == 12)
-            startPos = new Vector3(-0.15f, 0.5f, -0.85f);
+            startPos = new Vector3(-0.05f, 0.5f, -0.85f);
         if (ID == 13)
             startPos = new Vector3(-0.15f, 0.5f, -0.85f);
 
@@ -61,7 +61,7 @@ public class ObjectSelector : MonoBehaviour
 
     private void OnMouseDown()
      {
-         Debug.Log("ObjectSelected");
+         //Debug.Log("ObjectSelected");
          Controller.GetComponent<ObjectController>().selectedObject = this.gameObject;
          gameObject.layer = 2;
          transform.position = dropPosition;
@@ -84,10 +84,6 @@ public class ObjectSelector : MonoBehaviour
                 {
                     this.transform.position = new Vector3(transform.position.x, 0.35f, transform.position.z);
                 }
-                /*else if (Controller.GetComponent<ObjectController>().bagID == 4)
-                {
-                    this.transform.position = new Vector3(transform.position.x, 1.5f, transform.position.z);
-                }*/
                 else
                 {
                     this.transform.position = new Vector3(transform.position.x, 0.05f, transform.position.z);
