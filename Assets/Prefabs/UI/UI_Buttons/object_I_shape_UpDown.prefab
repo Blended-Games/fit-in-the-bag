@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7676043269343443185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7676043269343443190}
+  - component: {fileID: 7676043269343443188}
+  - component: {fileID: 7676043269343443191}
+  - component: {fileID: 8064655896974286871}
+  - component: {fileID: 5171628865165134396}
+  m_Layer: 5
+  m_Name: object_I_shape_UpDown
+  m_TagString: clickableObjects
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &7676043269343443190
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7676043269343443185}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 450, y: 450}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!222 &7676043269343443188
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7676043269343443185}
+  m_CullTransparentMesh: 0
+--- !u!114 &7676043269343443191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7676043269343443185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 20093a9d44beede409a02d16854ecf40, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!95 &8064655896974286871
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7676043269343443185}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d6eb16d32f438f74bb069a72f50fb246, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5171628865165134396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7676043269343443185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 224ee29c868757144a49146f2cf57063, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnedObject:
+  - {fileID: 7596781185852433790, guid: a446c88ab8a78934d856770997bccf81, type: 3}
+  - {fileID: 5933601474629257249, guid: 46c5321192a9bab4580f99dd233dd895, type: 3}
+  - {fileID: 6010823766987250780, guid: 8b33595ed5d30554e851f7cc2d6dca3c, type: 3}
+  - {fileID: 7159138532669610733, guid: 9db46ef8d2ff6184abf398ffc3f9762f, type: 3}
+  - {fileID: 7620156588456528701, guid: 64f3c65d96bfd74458d5f22e1a0bdafd, type: 3}
+  - {fileID: 9032310842911587521, guid: cddb8f1af7b622a47bf0fadbdf4f03ff, type: 3}
+  - {fileID: 4365452354038062306, guid: 3368e864f2fde2047919fd43f6e6c611, type: 3}
+  - {fileID: 8257569594550431754, guid: 880fcfb16086de34eb6b5160f5552c38, type: 3}
+  - {fileID: 7790633273427671029, guid: aace1b767bd22834e8ef3c239985fefe, type: 3}
+  - {fileID: 3766894870383737121, guid: 42e88c80907ee1548bbb311487642ba6, type: 3}
+  - {fileID: 1971910031226584128, guid: 57dfd2db3235c144baa2f4a5d2dbc4a0, type: 3}
+  - {fileID: 574400830469903581, guid: ececd881ca21ca0409ebd8c49efb6131, type: 3}
+  - {fileID: 7231092893154123245, guid: d3a4738bb493a6b46b824fed02428fb4, type: 3}
+  isClicked: 0
+  ID: 4
+  categoryImages:
+  - title: SchoolBag
+    selectedImage:
+    - {fileID: 21300000, guid: 20093a9d44beede409a02d16854ecf40, type: 3}
+    - {fileID: 21300000, guid: 20093a9d44beede409a02d16854ecf40, type: 3}
+  - title: SportsBag
+    selectedImage:
+    - {fileID: 21300000, guid: 20093a9d44beede409a02d16854ecf40, type: 3}
+    - {fileID: 21300000, guid: 20093a9d44beede409a02d16854ecf40, type: 3}
