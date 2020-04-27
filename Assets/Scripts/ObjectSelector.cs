@@ -48,12 +48,16 @@ public class ObjectSelector : MonoBehaviour
                 if (Controller.GetComponent<ObjectController>().bagID == 3)
                 {
                     this.transform.position = new Vector3(transform.position.x, 0.35f, transform.position.z);
+                    this.gameObject.GetComponent<BoxCollider>().enabled = false;
+
                 }
                 else
                 {
                     this.transform.position = new Vector3(transform.position.x, 0.05f, transform.position.z);
+                    this.gameObject.GetComponent<BoxCollider>().enabled = false;
+
                 }
-                
+
             }
         }
         if (!Controller.GetComponent<ObjectController>().isPlaceable)
@@ -75,10 +79,12 @@ public class ObjectSelector : MonoBehaviour
                 if (Controller.GetComponent<ObjectController>().bagID == 3)
                 {
                     this.transform.position = new Vector3(transform.position.x, 0.35f, transform.position.z);
+                    this.gameObject.GetComponent<BoxCollider>().enabled = false;
                 }
                 else
                 {
                     this.transform.position = new Vector3(transform.position.x, 0.05f, transform.position.z);
+                    this.gameObject.GetComponent<BoxCollider>().enabled = false;
                 }
             }
                 
