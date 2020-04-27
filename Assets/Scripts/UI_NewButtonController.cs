@@ -58,7 +58,7 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
         if (!isClicked)
         {
             SpawnController.GetComponent<UI_NewSpawnerControl>().spawnOneObject();
-            if (ID == 0)//bitti
+            if (ID == 0)
             {
                 var spawned = Instantiate(spawnedObject[ID], new Vector3(0f, 0.5f, -1f), Quaternion.identity);
                 spawned.gameObject.GetComponent<ObjectSelector>().ID = ID;
@@ -68,9 +68,9 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
                 backupObject.GetComponent<ObjectSelector>().matchCategory(SpawnController.GetComponent<UI_NewSpawnerControl>().categoryID, random);
             }
 
-            if (ID == 1)//bitti
+            if (ID == 1)
             {
-                var spawned = Instantiate(spawnedObject[ID], new Vector3(-0.4f, 0.5f, -2f), Quaternion.identity);
+                var spawned = Instantiate(spawnedObject[ID], new Vector3(0f, 0.5f, -0.25f), Quaternion.identity);
                 spawned.gameObject.GetComponent<ObjectSelector>().ID = ID;
                 Controller.GetComponent<ObjectController>().selectedObject = spawned;
                 
@@ -79,9 +79,9 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
 
             }
 
-            if (ID == 2)//bitti
+            if (ID == 2)
             {
-                var spawned = Instantiate(spawnedObject[ID], new Vector3(-0.4f, 0.5f, -2.5f), Quaternion.identity);
+                var spawned = Instantiate(spawnedObject[ID], new Vector3(-1f, 0.5f, -1f), Quaternion.identity);
                 spawned.gameObject.GetComponent<ObjectSelector>().ID = ID;
                 Controller.GetComponent<ObjectController>().selectedObject = spawned;
                 
@@ -89,9 +89,9 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
                 backupObject.GetComponent<ObjectSelector>().matchCategory(SpawnController.GetComponent<UI_NewSpawnerControl>().categoryID, random);
             }
 
-            if (ID == 3)//bitti
+            if (ID == 3)
             {
-                var spawned = Instantiate(spawnedObject[ID], new Vector3(-0.55f, 0.5f, -2.55f), Quaternion.identity);
+                var spawned = Instantiate(spawnedObject[ID], new Vector3(0.15f, 0.5f, -1f), Quaternion.identity);
                 spawned.gameObject.GetComponent<ObjectSelector>().ID = ID;
                 Controller.GetComponent<ObjectController>().selectedObject = spawned;
                 
@@ -99,9 +99,9 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
                 backupObject.GetComponent<ObjectSelector>().matchCategory(SpawnController.GetComponent<UI_NewSpawnerControl>().categoryID, random);
             }
 
-            if (ID == 4)//bitti
+            if (ID == 4)
             {
-                var spawned = Instantiate(spawnedObject[ID], new Vector3(-0.05f, 0.5f, -4.05f), Quaternion.identity);
+                var spawned = Instantiate(spawnedObject[ID], new Vector3(-1.55f, 0.5f, -1f), Quaternion.identity);
                 spawned.gameObject.GetComponent<ObjectSelector>().ID = ID;
                 Controller.GetComponent<ObjectController>().selectedObject = spawned;
                 
@@ -109,9 +109,9 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
                 backupObject.GetComponent<ObjectSelector>().matchCategory(SpawnController.GetComponent<UI_NewSpawnerControl>().categoryID,random);
             }
 
-            if (ID == 5)//bitti
+            if (ID == 5)
             {
-                var spawned = Instantiate(spawnedObject[ID], new Vector3(0.05f, 0.5f, -2.8f), Quaternion.identity);
+                var spawned = Instantiate(spawnedObject[ID], new Vector3(-1.05f, 0.5f, -1f), Quaternion.identity);
                 spawned.gameObject.GetComponent<ObjectSelector>().ID = ID;
                 Controller.GetComponent<ObjectController>().selectedObject = spawned;
                 backupObject = spawned;
@@ -119,9 +119,9 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
 
             }
 
-            if (ID == 6)//bitti
+            if (ID == 6)
             {
-                var spawned = Instantiate(spawnedObject[ID], new Vector3(-0.15f, 0.5f, -3f), Quaternion.identity);
+                var spawned = Instantiate(spawnedObject[ID], new Vector3(-1.05f, 0.5f, -1f), Quaternion.identity);
                 spawned.gameObject.GetComponent<ObjectSelector>().ID = ID;
                 Controller.GetComponent<ObjectController>().selectedObject = spawned;
 
@@ -130,9 +130,9 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
 
             }
 
-            if (ID == 7)//bitti
+            if (ID == 7)
             {
-                var spawned = Instantiate(spawnedObject[ID], new Vector3(-0.5f, 0.5f, -2.95f), Quaternion.identity);
+                var spawned = Instantiate(spawnedObject[ID], new Vector3(-0.5f, 0.5f, -1.55f), Quaternion.identity);
                 spawned.gameObject.GetComponent<ObjectSelector>().ID = ID;
                 Controller.GetComponent<ObjectController>().selectedObject = spawned;
 
@@ -140,9 +140,9 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
                 backupObject.GetComponent<ObjectSelector>().matchCategory(SpawnController.GetComponent<UI_NewSpawnerControl>().categoryID, random);
             }
 
-            if (ID == 8)//bitti
+            if (ID == 8)
             {
-                var spawned = Instantiate(spawnedObject[ID], new Vector3(0f, 0.5f, -2.85f), Quaternion.identity);
+                var spawned = Instantiate(spawnedObject[ID], new Vector3(0f, 0.5f, -1.55f), Quaternion.identity);
                 spawned.gameObject.GetComponent<ObjectSelector>().ID = ID;
                 Controller.GetComponent<ObjectController>().selectedObject = spawned;
 
@@ -150,9 +150,9 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
                 backupObject.GetComponent<ObjectSelector>().matchCategory(SpawnController.GetComponent<UI_NewSpawnerControl>().categoryID, random);
             }
 
-            if (ID == 9)//bitti
+            if (ID == 9)
             {
-                var spawned = Instantiate(spawnedObject[ID], new Vector3(-0.55f, 0.5f, -3.65f), Quaternion.identity);
+                var spawned = Instantiate(spawnedObject[ID], new Vector3(-0.15f, 0.5f, -2.45f), Quaternion.identity);
                 spawned.gameObject.GetComponent<ObjectSelector>().ID = ID;
                 Controller.GetComponent<ObjectController>().selectedObject = spawned;
 
@@ -160,9 +160,9 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
                 backupObject.GetComponent<ObjectSelector>().matchCategory(SpawnController.GetComponent<UI_NewSpawnerControl>().categoryID, random);
             }
 
-            if (ID == 10)//bitti
+            if (ID == 10)
             {
-                var spawned = Instantiate(spawnedObject[ID], new Vector3(-0.45f, 0.5f, -2.75f), Quaternion.identity);
+                var spawned = Instantiate(spawnedObject[ID], new Vector3(-0.15f, 0.5f, -0.85f), Quaternion.identity);
                 spawned.gameObject.GetComponent<ObjectSelector>().ID = ID;
                 Controller.GetComponent<ObjectController>().selectedObject = spawned;
 
@@ -170,9 +170,9 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
                 backupObject.GetComponent<ObjectSelector>().matchCategory(SpawnController.GetComponent<UI_NewSpawnerControl>().categoryID, random);
             }
 
-            if (ID == 11)//bitti
+            if (ID == 11)
             {
-                var spawned = Instantiate(spawnedObject[ID], new Vector3(0.05f, 0.5f, -2.95f), Quaternion.identity);
+                var spawned = Instantiate(spawnedObject[ID], new Vector3(-0.15f, 0.5f, -0.85f), Quaternion.identity);
                 spawned.gameObject.GetComponent<ObjectSelector>().ID = ID;
                 Controller.GetComponent<ObjectController>().selectedObject = spawned;
 
@@ -180,9 +180,9 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
                 backupObject.GetComponent<ObjectSelector>().matchCategory(SpawnController.GetComponent<UI_NewSpawnerControl>().categoryID, random);
             }
 
-            if (ID == 12)//bitti
+            if (ID == 12)
             {
-                var spawned = Instantiate(spawnedObject[ID], new Vector3(0f, 1.5f, -2.65f), Quaternion.identity);
+                var spawned = Instantiate(spawnedObject[ID], new Vector3(-0.15f, 0.5f, -0.85f), Quaternion.identity);
                 spawned.gameObject.GetComponent<ObjectSelector>().ID = ID;
                 Controller.GetComponent<ObjectController>().selectedObject = spawned;
 
@@ -191,7 +191,7 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
             }
 
 
-            if (ID == 13)//bitti
+            if (ID == 13)
             {
                 var spawned = Instantiate(spawnedObject[ID], new Vector3(-0.15f, 0.5f, -0.85f), Quaternion.identity);
                 spawned.gameObject.GetComponent<ObjectSelector>().ID = ID;

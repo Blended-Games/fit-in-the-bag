@@ -40,8 +40,7 @@ public class ErrorController : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        //if (other.tag == "SelectedObject" || other.tag == "PlacedObjects" || other.tag == "outsideArea")
-        if (other.tag == "PlacedObjects" || other.tag == "outsideArea")
+        if (other.tag == "SelectedObject" || other.tag == "PlacedObjects" || other.tag == "outsideArea")
         {
             callErrorMaterial();
             Controller.GetComponent<ObjectController>().isPlaceable = false;
@@ -51,13 +50,8 @@ public class ErrorController : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag == "PlacedObjects" || other.tag == "outsideArea")
-        {
-           callNormalMaterial();
-           Controller.GetComponent<ObjectController>().isPlaceable = true;
-        }
-
-        
+        callNormalMaterial();
+        Controller.GetComponent<ObjectController>().isPlaceable = true;
     }
 
 }
