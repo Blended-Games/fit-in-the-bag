@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 
 public class ObjectController : MonoBehaviour
 {
-
     public bool isMoveable;
     public bool inTheBag;
     public float rayLenght;
@@ -23,19 +22,16 @@ public class ObjectController : MonoBehaviour
     public GameObject nextLevelButton;
     public bool levelComplete;
     
-
     private void Awake()
     {
 
-           GameObject[] objs = GameObject.FindGameObjectsWithTag("GameController");
-
-            if (objs.Length > 1)
-            {
-                Destroy(this.gameObject);
-            }
-
-            DontDestroyOnLoad(this.gameObject);
-
+        GameObject[] objs = GameObject.FindGameObjectsWithTag("GameController");
+        if (objs.Length > 1)
+        {
+            Destroy(this.gameObject);
+        }
+       
+        DontDestroyOnLoad(this.gameObject);
         levelProgressBar.rectTransform.localScale = new Vector2(levelPoint, 1f);
         visualBagGrid(false);
         SpawnController = GameObject.FindGameObjectWithTag("SpawnController");
@@ -46,14 +42,10 @@ public class ObjectController : MonoBehaviour
             bags[i].SetActive(false);
             bags[bagID].SetActive(true);
         }
-
-
     }
-
 
     public void visualBagGrid(bool enable)
     {
-
         if (enable)
         {
             foreach (GameObject bagSlotsPlaceable in GameObject.FindGameObjectsWithTag("PlaceableSlots"))
@@ -70,7 +62,6 @@ public class ObjectController : MonoBehaviour
         }
     }
 
-
     private void Update()
     {
         if (levelPoint >= 1f)
@@ -81,22 +72,16 @@ public class ObjectController : MonoBehaviour
                 StartCoroutine(showNextLevelBTN());
                 GameObject.FindGameObjectWithTag("BagCap").GetComponent<Animator>().SetTrigger("closeBag");
                 levelComplete = true;
-            }
-            
-        }
-        
+            }   
+        }  
         else if (levelPoint < 0f)
         {
-            levelPoint = 0f;
-            
+            levelPoint = 0f;      
         }
         else
         {
             nextLevelButton.SetActive(false);
         }
-            
-
-
         SpawnController.GetComponent<UI_NewSpawnerControl>().LevelNumber = bagID;
         levelProgressBar.rectTransform.localScale = new Vector2(levelPoint, 1f);
 
@@ -135,16 +120,6 @@ public class ObjectController : MonoBehaviour
                 if (inTheBag)
                 {
                     visualBagGrid(true);
-                    /*if(bagID == 4)
-                    {
-                        Vector3 temp = new Vector3(hit.transform.position.x, 3.25f, hit.transform.position.z);
-                        selectedObject.transform.position = temp;
-                        freeMoveFloor.layer = 0;
-                    }
-                    else
-                    {
-                       
-                    }*/
                     Vector3 temp = new Vector3(hit.transform.position.x, 1.5f, hit.transform.position.z);
                     selectedObject.transform.position = temp;
                     freeMoveFloor.layer = 0;
@@ -154,13 +129,10 @@ public class ObjectController : MonoBehaviour
         }
     }
 
-
-
  
     public void LoadLevel(int number)
     {
         StartCoroutine(callLevel(number));
-     
     }
     public void callRestartCurrentLevel()
     {
@@ -184,7 +156,6 @@ public class ObjectController : MonoBehaviour
         levelComplete = false;
         levelPoint = 0f;
         bagID++;
-
 
         foreach (GameObject placedAfter in GameObject.FindGameObjectsWithTag("PlacedAfter"))
         {
@@ -215,9 +186,6 @@ public class ObjectController : MonoBehaviour
 
         levelComplete = false;
         levelPoint = 0f;
-        
-
-
         foreach (GameObject placedAfter in GameObject.FindGameObjectsWithTag("PlacedAfter"))
         {
             Destroy(placedAfter);
@@ -229,11 +197,8 @@ public class ObjectController : MonoBehaviour
         }
 
         SpawnController.GetComponent<UI_NewSpawnerControl>().destroyAll();
-
-        
-
         yield return new WaitForSeconds(0.00001f);
-        SceneManager.LoadScene(bagID);
+        SceneManager.LoadScene(0);
         SpawnController.GetComponent<UI_NewSpawnerControl>().callBagItems();
         inTheBag = false;
         if (bagID == 4)
@@ -246,13 +211,10 @@ public class ObjectController : MonoBehaviour
 
     public IEnumerator restartGame()
     {
-
         levelComplete = false;
         levelPoint = 0f;
-
         bagID = 0;
         Camera.main.fieldOfView = 65;
-
         foreach (GameObject placedAfter in GameObject.FindGameObjectsWithTag("PlacedAfter"))
         {
             Destroy(placedAfter);
@@ -264,7 +226,6 @@ public class ObjectController : MonoBehaviour
         }
 
         SpawnController.GetComponent<UI_NewSpawnerControl>().destroyAll();
-
         yield return new WaitForSeconds(0.00001f);
         SceneManager.LoadScene(bagID);
         SpawnController.GetComponent<UI_NewSpawnerControl>().callBagItems();

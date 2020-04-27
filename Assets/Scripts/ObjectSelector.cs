@@ -24,44 +24,11 @@ public class ObjectSelector : MonoBehaviour
 
     private void Start()
     {
-        if (ID == 0)
-            startPos = new Vector3(0f, 0.5f, -1f);
-        if (ID == 1)
-            startPos = new Vector3(0f, 0.5f, -2f);
-        if (ID == 2)
-            startPos = new Vector3(0f, 0.5f, -2f);
-        if (ID == 3)
-            startPos = new Vector3(-1.35f, 0.5f, -1.55f);
-        if (ID == 4)
-            startPos = new Vector3(-0.05f, 0.5f, -4.05f);
-        if (ID == 5)
-            startPos = new Vector3(-1.05f, 0.5f, -1f);
-        if (ID == 6)
-            startPos = new Vector3(-1.05f, 0.5f, -1f);
-        if (ID == 7)
-            startPos = new Vector3(-0.5f, 0.5f, -1.55f);
-        if (ID == 8)
-            startPos = new Vector3(0f, 0.5f, -0.25f);
-        if (ID == 9)
-            startPos = new Vector3(-0.15f, 0.5f, -2.45f);
-        if (ID == 10)
-            startPos = new Vector3(-0.55f, 0.5f, -0.85f);
-        if (ID == 11)
-            startPos = new Vector3(-0.15f, 0.5f, -0.85f);
-        if (ID == 12)
-            startPos = new Vector3(-0.05f, 0.5f, -0.85f);
-        if (ID == 13)
-            startPos = new Vector3(-0.15f, 0.5f, -0.85f);
-
-
-        dropPosition = transform.position;
-        Controller = GameObject.FindGameObjectWithTag("GameController");
-        
+        Controller = GameObject.FindGameObjectWithTag("GameController"); 
     }
 
     private void OnMouseDown()
      {
-         //Debug.Log("ObjectSelected");
          Controller.GetComponent<ObjectController>().selectedObject = this.gameObject;
          gameObject.layer = 2;
          transform.position = dropPosition;
@@ -69,10 +36,6 @@ public class ObjectSelector : MonoBehaviour
 
      private void OnMouseUp()
      {
-        gameObject.layer = 0;
-        dropPosition = transform.position;
-        objectisPlaced = true;
-        enabledleAll(true);
 
         if (Controller.GetComponent<ObjectController>().isPlaceable)
         {
@@ -80,6 +43,8 @@ public class ObjectSelector : MonoBehaviour
             {
                 Controller.GetComponent<ObjectController>().levelPoint += dropPoint / SpawnController.GetComponent<UI_NewSpawnerControl>().spawnCount;
 
+                gameObject.layer = 0;
+                objectisPlaced = true;
                 if (Controller.GetComponent<ObjectController>().bagID == 3)
                 {
                     this.transform.position = new Vector3(transform.position.x, 0.35f, transform.position.z);
@@ -93,32 +58,24 @@ public class ObjectSelector : MonoBehaviour
         }
         if (!Controller.GetComponent<ObjectController>().isPlaceable)
         {
-            enabledleAll(false);
             objectisPlaced = false;
-            transform.position = startPos;
+            Destroy(gameObject);
         }
      }
 
     public void resetPositionFirst()
     {
-        gameObject.layer = 0;
-        dropPosition = transform.position;
-        objectisPlaced = true;
-        enabledleAll(true);
         Controller.GetComponent<ObjectController>().visualBagGrid(false);
         if (Controller.GetComponent<ObjectController>().isPlaceable)
         {
             if (Controller.GetComponent<ObjectController>().inTheBag)
             {
+                gameObject.layer = 0;
                 Controller.GetComponent<ObjectController>().levelPoint += dropPoint / SpawnController.GetComponent<UI_NewSpawnerControl>().spawnCount;
                 if (Controller.GetComponent<ObjectController>().bagID == 3)
                 {
                     this.transform.position = new Vector3(transform.position.x, 0.35f, transform.position.z);
                 }
-                /*else if (Controller.GetComponent<ObjectController>().bagID == 4)
-                {
-                    this.transform.position = new Vector3(transform.position.x, 1.5f, transform.position.z);
-                }*/
                 else
                 {
                     this.transform.position = new Vector3(transform.position.x, 0.05f, transform.position.z);
@@ -128,9 +85,8 @@ public class ObjectSelector : MonoBehaviour
         }
         if (!Controller.GetComponent<ObjectController>().isPlaceable)
         {
-            enabledleAll(false);
             objectisPlaced = false;
-            transform.position = startPos;
+            Destroy(gameObject);
         }
     }
 
@@ -138,7 +94,6 @@ public class ObjectSelector : MonoBehaviour
 
     public void matchCategory(int categoryID,int selectedObject)
     {
-        //Debug.Log("Category matched : " + SpawnController.GetComponent<UI_NewSpawnerControl>().categoryID);
         int count = transform.childCount;
         
         for (int i = 0; i < count; i++)
@@ -150,27 +105,6 @@ public class ObjectSelector : MonoBehaviour
             transform.GetChild(categoryID).gameObject.SetActive(true);
             transform.GetChild(categoryID).transform.GetChild(selectedObject).gameObject.SetActive(true);
             
-        }
-    }
-
-    public void enabledleAll(bool checker)
-    {
-        buttons = GameObject.FindGameObjectsWithTag("clickableObjects");
-        if (checker)
-        {
-            foreach (GameObject clickedbuttons in buttons)
-            {
-                clickedbuttons.GetComponent<Image>().color = new Color32(255, 255, 255, 255);
-                clickedbuttons.GetComponent<UI_NewButtonController>().isClicked = false;
-            }
-        }
-        else
-        {
-            foreach (GameObject clickedbuttons in buttons)
-            {
-                clickedbuttons.GetComponent<Image>().color = new Color32(255, 255, 255, 145);
-                clickedbuttons.GetComponent<UI_NewButtonController>().isClicked = true;
-            }
         }
     }
 }

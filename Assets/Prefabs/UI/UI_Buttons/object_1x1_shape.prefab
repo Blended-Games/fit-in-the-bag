@@ -83,7 +83,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8376342462927880511}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: d6eb16d32f438f74bb069a72f50fb246, type: 2}
   m_CullingMode: 0
@@ -120,7 +120,6 @@ MonoBehaviour:
   - {fileID: 1971910031226584128, guid: 57dfd2db3235c144baa2f4a5d2dbc4a0, type: 3}
   - {fileID: 574400830469903581, guid: ececd881ca21ca0409ebd8c49efb6131, type: 3}
   - {fileID: 7231092893154123245, guid: d3a4738bb493a6b46b824fed02428fb4, type: 3}
-  backupObject: {fileID: 0}
   isClicked: 0
   ID: 0
   categoryImages:

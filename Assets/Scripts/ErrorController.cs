@@ -33,25 +33,27 @@ public class ErrorController : MonoBehaviour
     {
         gameObject.GetComponent<Renderer>().material = errorMat;
         //if (visualOject != null)
-            //visualOject.GetComponent<Renderer>().material.color = Color.red;
-        
+            //visualOject.GetComponent<Renderer>().material.color = Color.red; 
     }
 
-
     private void OnTriggerStay(Collider other)
-    {
-        if (other.tag == "SelectedObject" || other.tag == "PlacedObjects" || other.tag == "outsideArea")
+    {  
+        if (other.tag == "PlacedObjects" || other.tag == "outsideArea" || other.tag == "freeMoveController")
         {
             callErrorMaterial();
             Controller.GetComponent<ObjectController>().isPlaceable = false;
         }
-
     }
 
     private void OnTriggerExit(Collider other)
     {
-        callNormalMaterial();
-        Controller.GetComponent<ObjectController>().isPlaceable = true;
+        if (other.tag == "PlacedObjects" || other.tag == "outsideArea")
+        {
+           callNormalMaterial();
+           Controller.GetComponent<ObjectController>().isPlaceable = true;
+        }
+
+        
     }
 
 }

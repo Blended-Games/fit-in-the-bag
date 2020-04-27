@@ -156,34 +156,4 @@ public class UI_NewSpawnerControl : MonoBehaviour
             }
         }
     }
-
-
-    #region old Code
-    //public List<int> defaultList = new List<int>();
-    // usage
-    //SelectedRandomNumber = RandomNumberChooser();
-    //var spawns = Instantiate(defaultListStage[SelectedRandomNumber], transform);
-    /*int RandomNumberChooser()
-    {
-        if (defaultList.Count == 0)
-        {
-            Fill_List();
-            RandomNumberChooser();
-        }
-        
-        var index = Random.Range(0, defaultList.Count);
-        var value = defaultList[index];
-        defaultList.RemoveAt(index);
-        return value;
-    }
-
-    void Fill_List()
-    {
-        for (int i = 0; i < defaultListStage.Length; i++)
-        {
-            defaultList.Add(i);
-        }
-    }*/
-    #endregion
-
 }

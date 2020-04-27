@@ -18,6 +18,7 @@ TagManager:
   - Ground
   - PlacedAfter
   - SpriteSlots
+  - freeMoveArea
   layers:
   - Default
   - TransparentFX

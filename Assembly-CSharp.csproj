@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{643B56B9-7EC0-3188-C9BA-3E43C8F42658}</ProjectGuid>
+    <ProjectGuid>{C1737F81-A0F0-6F14-C7AB-29E893CBA279}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\DontDestroyCanvas.cs" />
     <Compile Include="Assets\Scripts\DontDestroyGround.cs" />
     <Compile Include="Assets\Scripts\ErrorController.cs" />
+    <Compile Include="Assets\Scripts\FreeMoveController.cs" />
     <Compile Include="Assets\Scripts\InspectorCustomizer.cs" />
     <Compile Include="Assets\Scripts\LevelList.cs" />
     <Compile Include="Assets\Scripts\ObjectController.cs" />
@@ -82,31 +83,31 @@
     <None Include="Assets\Shader\OutlineNormal.shader" />
     <None Include="Assets\Shader\OutlineCamera.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/Projects/BlendIT/fitinthebag/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/Projects/BlendIT/fit-in-the-bag-master/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/Projects/BlendIT/fitinthebag/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/Projects/BlendIT/fit-in-the-bag-master/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Projects/BlendIT/fitinthebag/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Projects/BlendIT/fit-in-the-bag-master/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/Projects/BlendIT/fitinthebag/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/Projects/BlendIT/fit-in-the-bag-master/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/Projects/BlendIT/fitinthebag/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/Projects/BlendIT/fit-in-the-bag-master/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Projects/BlendIT/fitinthebag/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/Projects/BlendIT/fit-in-the-bag-master/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/Projects/BlendIT/fitinthebag/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/Projects/BlendIT/fit-in-the-bag-master/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Projects/BlendIT/fitinthebag/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Projects/BlendIT/fit-in-the-bag-master/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/Projects/BlendIT/fitinthebag/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/Projects/BlendIT/fit-in-the-bag-master/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
