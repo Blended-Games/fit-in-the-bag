@@ -11,6 +11,8 @@ public class ObjectSelector : MonoBehaviour
     public GameObject Controller;
     public GameObject SpawnController;
     private GameObject[] buttons;
+    public GameObject[] visualHolders;
+    public Vector3 visualsDropPositions;
     public Vector3 startPos;
     public int ID;
     public bool objectisPlaced;
@@ -45,6 +47,14 @@ public class ObjectSelector : MonoBehaviour
 
                 gameObject.layer = 0;
                 objectisPlaced = true;
+
+
+                for (int i = 0; i < visualHolders.Length; i++)
+                {
+                    visualHolders[i].gameObject.transform.localPosition = visualsDropPositions;
+                    Debug.Log(visualsDropPositions);
+                }
+
                 if (Controller.GetComponent<ObjectController>().bagID == 3)
                 {
                     this.transform.position = new Vector3(transform.position.x, 0.35f, transform.position.z);
@@ -76,6 +86,12 @@ public class ObjectSelector : MonoBehaviour
             {
                 gameObject.layer = 0;
                 Controller.GetComponent<ObjectController>().levelPoint += dropPoint / SpawnController.GetComponent<UI_NewSpawnerControl>().spawnCount;
+
+                for (int i = 0; i < visualHolders.Length; i++)
+                {
+                    visualHolders[i].gameObject.transform.localPosition = visualsDropPositions;
+                }
+
                 if (Controller.GetComponent<ObjectController>().bagID == 3)
                 {
                     this.transform.position = new Vector3(transform.position.x, 0.35f, transform.position.z);

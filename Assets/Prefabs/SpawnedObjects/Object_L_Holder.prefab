@@ -482,7 +482,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3571830181026704427}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.9, y: 0, z: 2.2999997}
+  m_LocalPosition: {x: -0.9, y: 0, z: 3.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4715169040260759162}
@@ -515,7 +515,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5667713703836475301}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.9, y: 0, z: 2.3}
+  m_LocalPosition: {x: -0.9, y: 0, z: 3.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9203026485365310720}
@@ -1661,7 +1661,7 @@ GameObject:
   m_Layer: 0
   m_Name: Object_L_Holder
   m_TagString: PlacedAfter
-  m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1719,6 +1719,10 @@ MonoBehaviour:
   dropPosition: {x: 0, y: 0, z: 0}
   Controller: {fileID: 0}
   SpawnController: {fileID: 0}
+  visualHolders:
+  - {fileID: 5667713703836475301}
+  - {fileID: 3571830181026704427}
+  visualsDropPositions: {x: -0.9, y: 0, z: 2.3}
   startPos: {x: 0, y: 0, z: 0}
   ID: 5
   objectisPlaced: 0

@@ -274,7 +274,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1111200020079247238}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.0999999, y: 0, z: 2.1}
+  m_LocalPosition: {x: -1.0999999, y: 0, z: 3.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1098093056961019212}
@@ -799,6 +799,10 @@ MonoBehaviour:
   dropPosition: {x: 0, y: 0, z: 0}
   Controller: {fileID: 0}
   SpawnController: {fileID: 0}
+  visualHolders:
+  - {fileID: 1111200020079247238}
+  - {fileID: 8096827482280168456}
+  visualsDropPositions: {x: -1.1, y: 0, z: 2.1}
   startPos: {x: 0, y: 0, z: 0}
   ID: 6
   objectisPlaced: 0
@@ -1789,7 +1793,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8096827482280168456}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.0999999, y: 0, z: 2.1}
+  m_LocalPosition: {x: -1.0999999, y: 0, z: 3.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 764769263924992019}
