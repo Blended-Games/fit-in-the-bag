@@ -46,6 +46,14 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
     {
         
         GetComponent<Image>().color = new Color32(255, 255, 255, 145);
+
+        foreach (GameObject spriteSlots in GameObject.FindGameObjectsWithTag("SpriteSlots"))
+        {
+            spriteSlots.GetComponent<SpriteRenderer>().enabled = true;
+            spriteSlots.GetComponent<SpriteSlotColorChanger>().isChanged = false;
+            spriteSlots.GetComponent<SpriteRenderer>().enabled = false;
+        }
+
         if (!isClicked)
         {  
             SpawnController.GetComponent<UI_NewSpawnerControl>().spawnOneObject();

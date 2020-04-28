@@ -20,6 +20,8 @@ public class ObjectController : MonoBehaviour
     public int bagID;
     public GameObject[] bags;
     public GameObject nextLevelButton;
+    public GameObject closeBagButton;
+
     public bool levelComplete;
     
     private void Awake()
@@ -36,6 +38,7 @@ public class ObjectController : MonoBehaviour
         visualBagGrid(false);
         SpawnController = GameObject.FindGameObjectWithTag("SpawnController");
         SpawnController.GetComponent<UI_NewSpawnerControl>().LevelNumber = bagID;
+        closeBagButton.SetActive(false);
 
         for (int i = 0; i < bags.Length; i++)
         {
@@ -77,6 +80,12 @@ public class ObjectController : MonoBehaviour
         else if (levelPoint < 0f)
         {
             levelPoint = 0f;      
+        }
+        else if (levelPoint > 0.6f)
+        {
+            closeBagButton.SetActive(true);
+            Debug.Log("ClosebagBTN Active");
+         
         }
         else
         {
@@ -144,6 +153,16 @@ public class ObjectController : MonoBehaviour
         StartCoroutine(restartGame());
     }
 
+    public void callCloseBag()
+    {
+        for (int i = 0; i < bags.Length; i++)
+        {
+            bags[bagID].transform.GetChild(0).gameObject.GetComponent<Animator>().SetTrigger("closeBag");
+        }
+        StartCoroutine(showNextLevelBTN());
+    }
+
+
     public IEnumerator showNextLevelBTN()
     {
         yield return new WaitForSeconds(1f);
@@ -156,7 +175,7 @@ public class ObjectController : MonoBehaviour
         levelComplete = false;
         levelPoint = 0f;
         bagID++;
-
+        closeBagButton.SetActive(false);
         foreach (GameObject placedAfter in GameObject.FindGameObjectsWithTag("PlacedAfter"))
         {
             Destroy(placedAfter);
@@ -186,6 +205,7 @@ public class ObjectController : MonoBehaviour
 
         levelComplete = false;
         levelPoint = 0f;
+        closeBagButton.SetActive(false);
         foreach (GameObject placedAfter in GameObject.FindGameObjectsWithTag("PlacedAfter"))
         {
             Destroy(placedAfter);
@@ -215,6 +235,7 @@ public class ObjectController : MonoBehaviour
         levelPoint = 0f;
         bagID = 0;
         Camera.main.fieldOfView = 65;
+        closeBagButton.SetActive(false);
         foreach (GameObject placedAfter in GameObject.FindGameObjectsWithTag("PlacedAfter"))
         {
             Destroy(placedAfter);

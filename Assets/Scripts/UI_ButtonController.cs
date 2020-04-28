@@ -20,22 +20,13 @@ public class UI_ButtonController : MonoBehaviour,IPointerClickHandler
     float t_shape_dropChance;
 
 
-
-    
-
-
     void Start()
     {
         
         GetComponent<Image>().sprite = spriteImage[ID];
         Controller = GameObject.FindGameObjectWithTag("GameController");
         SpawnController = GameObject.FindGameObjectWithTag("SpawnController");
-
-
         //diffculty(Controller.GetComponent<ObjectController>().difficultyNumber);
-
-
-
 
         if (Random.Range(0f, 1f) <= square_shape_dropChance)
             ID = 0;
@@ -79,12 +70,11 @@ public class UI_ButtonController : MonoBehaviour,IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        
 
+     
 
         if (!isClicked)
         {
-
             SpawnController.GetComponent<UI_SpawnerController>().spawnOneObject();
             if (ID == 0)
                 Instantiate(spawnedObject[ID], new Vector3(-0.5f, 0.5f, -0.25f), Quaternion.identity);
