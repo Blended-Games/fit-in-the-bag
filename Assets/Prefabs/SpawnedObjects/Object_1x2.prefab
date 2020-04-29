@@ -283,7 +283,7 @@ GameObject:
   m_Component:
   - component: {fileID: 996715231991407411}
   m_Layer: 0
-  m_Name: ShoolHolder
+  m_Name: AlisverisArabasi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

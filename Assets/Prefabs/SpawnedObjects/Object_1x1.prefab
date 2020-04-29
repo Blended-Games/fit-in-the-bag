@@ -207,7 +207,7 @@ GameObject:
   m_Layer: 2
   m_Name: Slot
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -602,7 +602,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3954257361724083820}
   m_Layer: 0
-  m_Name: ShoolHolder
+  m_Name: TravelBag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -717,15 +717,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 06dbeaf9bcde74b42830cea133218d49, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.4
+      value: 2.4568322
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 06dbeaf9bcde74b42830cea133218d49, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.4
+      value: 2.4568322
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 06dbeaf9bcde74b42830cea133218d49, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2.4
+      value: 2.4568322
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 06dbeaf9bcde74b42830cea133218d49, type: 3}
       propertyPath: m_CastShadows
@@ -804,15 +804,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3407ddbafeec02d47b5baca520036cef, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.4
+      value: 2.5920002
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3407ddbafeec02d47b5baca520036cef, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.4
+      value: 2.5920002
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3407ddbafeec02d47b5baca520036cef, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2.4
+      value: 2.5920002
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 3407ddbafeec02d47b5baca520036cef, type: 3}
       propertyPath: m_CastShadows
