@@ -673,7 +673,7 @@ MonoBehaviour:
   visualHolders:
   - {fileID: 8065526533597421757}
   - {fileID: 5914155266628347108}
-  visualsDropPositions: {x: 0, y: 0, z: 0}
+  visualsDropPositions: {x: -1, y: 0, z: 1.15}
   startPos: {x: 0, y: 0, z: 0}
   ID: 8
   objectisPlaced: 0
@@ -1424,7 +1424,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: b9831475213a9b14b8c509cd438d82ae,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.89
+      value: 0.97
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b9831475213a9b14b8c509cd438d82ae,
         type: 3}
@@ -1434,7 +1434,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: b9831475213a9b14b8c509cd438d82ae,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.573
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b9831475213a9b14b8c509cd438d82ae,
         type: 3}
@@ -1479,12 +1479,12 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: b9831475213a9b14b8c509cd438d82ae,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 2880.8728
+      value: 2124.6438
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b9831475213a9b14b8c509cd438d82ae,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 2880.8728
+      value: 3863.9707
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b9831475213a9b14b8c509cd438d82ae,
         type: 3}

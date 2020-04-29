@@ -69,7 +69,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8851418863311192389
 Transform:
   m_ObjectHideFlags: 0
@@ -99,7 +99,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4766054112280393996}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -362,7 +362,7 @@ GameObject:
   m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6856865322206859307
 Transform:
   m_ObjectHideFlags: 0
@@ -392,7 +392,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5572115723007828613}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -630,7 +630,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1247431523301063967
 Transform:
   m_ObjectHideFlags: 0
@@ -660,7 +660,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6389694679485232850}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -776,7 +776,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4017414640516600127
 Transform:
   m_ObjectHideFlags: 0
@@ -806,7 +806,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6956592302039315103}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -901,7 +901,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2243344924898146197
 Transform:
   m_ObjectHideFlags: 0
@@ -931,7 +931,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8051104290222742332}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1227,23 +1227,33 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 9f4f7f62d6824c842b62bdc21f879110,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.4091
+      value: 3.24093
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9f4f7f62d6824c842b62bdc21f879110,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.4091
+      value: 3.24093
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9f4f7f62d6824c842b62bdc21f879110,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.4091
+      value: 3.24093
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 9f4f7f62d6824c842b62bdc21f879110,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 64a078559883ad246b75ce43ed40e328, type: 2}
+    - target: {fileID: -1504981713932161579, guid: 9f4f7f62d6824c842b62bdc21f879110,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 9f4f7f62d6824c842b62bdc21f879110,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 9f4f7f62d6824c842b62bdc21f879110,
         type: 3}
       propertyPath: m_Name
@@ -1428,6 +1438,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 64a078559883ad246b75ce43ed40e328, type: 2}
+    - target: {fileID: -1504981713932161579, guid: aee8bbd92adb0454f81a5b40219eaa12,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: aee8bbd92adb0454f81a5b40219eaa12,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: aee8bbd92adb0454f81a5b40219eaa12,
         type: 3}
       propertyPath: m_Name
@@ -1456,7 +1476,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 6e5f04ba4a58e5a40aa2d8812c140af5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.789
+      value: 0.589
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6e5f04ba4a58e5a40aa2d8812c140af5,
         type: 3}
@@ -1506,23 +1526,33 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 6e5f04ba4a58e5a40aa2d8812c140af5,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.4091
+      value: 3.1000202
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6e5f04ba4a58e5a40aa2d8812c140af5,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.4091
+      value: 3.1000202
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6e5f04ba4a58e5a40aa2d8812c140af5,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.4091
+      value: 3.1000202
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: 6e5f04ba4a58e5a40aa2d8812c140af5,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 64a078559883ad246b75ce43ed40e328, type: 2}
+    - target: {fileID: -1504981713932161579, guid: 6e5f04ba4a58e5a40aa2d8812c140af5,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 6e5f04ba4a58e5a40aa2d8812c140af5,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 6e5f04ba4a58e5a40aa2d8812c140af5,
         type: 3}
       propertyPath: m_Name
