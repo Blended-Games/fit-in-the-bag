@@ -128,13 +128,44 @@ MonoBehaviour:
   isClicked: 0
   ID: 0
   categoryImages:
-  - title: SchoolBag
+  - title: travel
     selectedImage:
     - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
     - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
-  - title: SportsBag
+  - title: bagaj
     selectedImage:
     - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+  - title: alisveris
+    selectedImage:
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+  - title: beslenme
+    selectedImage:
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+  - title: hediyeKutusu
+    selectedImage:
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+  - title: isCantasi
+    selectedImage:
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+  - title: okul
+    selectedImage:
     - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
   - title: SportsBag
     selectedImage:

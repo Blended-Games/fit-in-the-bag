@@ -128,12 +128,35 @@ MonoBehaviour:
   isClicked: 0
   ID: 1
   categoryImages:
-  - title: SchoolBag
+  - title: hediye
     selectedImage:
     - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
     - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
     - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
-  - title: SportsBag
+  - title: bavul
     selectedImage:
+    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
+    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
+  - title: beslenme
+    selectedImage:
+    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
+    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
+    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
+  - title: deepfreze
+    selectedImage:
+    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
+    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
+  - title: okul
+    selectedImage:
+    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
+    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
+    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
+  - title: palet
+    selectedImage:
+    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
+  - title: tamir
+    selectedImage:
+    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
+    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
     - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
     - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}

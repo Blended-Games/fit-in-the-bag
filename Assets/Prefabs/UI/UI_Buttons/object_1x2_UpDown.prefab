@@ -128,12 +128,26 @@ MonoBehaviour:
   isClicked: 0
   ID: 2
   categoryImages:
-  - title: TravelBag_4x3
+  - title: okul
     selectedImage:
     - {fileID: 21300000, guid: 8c3ca2c2ad4549747834aace995bfa0f, type: 3}
     - {fileID: 21300000, guid: 8c3ca2c2ad4549747834aace995bfa0f, type: 3}
     - {fileID: 21300000, guid: 8c3ca2c2ad4549747834aace995bfa0f, type: 3}
-  - title: ShoopingCart_4x4
+  - title: pickup
+    selectedImage:
+    - {fileID: 21300000, guid: 8c3ca2c2ad4549747834aace995bfa0f, type: 3}
+    - {fileID: 21300000, guid: 8c3ca2c2ad4549747834aace995bfa0f, type: 3}
+  - title: tamir
+    selectedImage:
+    - {fileID: 21300000, guid: 8c3ca2c2ad4549747834aace995bfa0f, type: 3}
+    - {fileID: 21300000, guid: 8c3ca2c2ad4549747834aace995bfa0f, type: 3}
+    - {fileID: 21300000, guid: 8c3ca2c2ad4549747834aace995bfa0f, type: 3}
+  - title: hediye
+    selectedImage:
+    - {fileID: 21300000, guid: 8c3ca2c2ad4549747834aace995bfa0f, type: 3}
+    - {fileID: 21300000, guid: 8c3ca2c2ad4549747834aace995bfa0f, type: 3}
+    - {fileID: 21300000, guid: 8c3ca2c2ad4549747834aace995bfa0f, type: 3}
+  - title: beslenme
     selectedImage:
     - {fileID: 21300000, guid: 8c3ca2c2ad4549747834aace995bfa0f, type: 3}
     - {fileID: 21300000, guid: 8c3ca2c2ad4549747834aace995bfa0f, type: 3}

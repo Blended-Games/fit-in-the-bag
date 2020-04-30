@@ -1440,8 +1440,7 @@ MonoBehaviour:
   Controller: {fileID: 0}
   SpawnController: {fileID: 0}
   visualHolders:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8768989057609465004}
   visualsDropPositions: {x: -0.9, y: 0, z: 2.3}
   startPos: {x: 0, y: 0, z: 0}
   ID: 5
