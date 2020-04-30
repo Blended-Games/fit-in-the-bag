@@ -28,7 +28,7 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
 
         for (int i = 0; i < categoryImages.Length; i++)
         { 
-            backRandom = categoryImages[i].selectedImage.Length;
+            backRandom = categoryImages[0].selectedImage.Length;
             //Debug.Log(random);
         }
 
