@@ -74,12 +74,16 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
     {
         GetComponent<Image>().color = new Color32(255, 255, 255, 255);
         backupObject.GetComponent<ObjectSelector>().resetPositionFirst();
+        GameObject backupButtons = GameObject.FindGameObjectWithTag("backupButtons");
         if (Controller.GetComponent<ObjectController>().isPlaceable)
         {
             if (Controller.GetComponent<ObjectController>().inTheBag)
             {
                 //gameObject.SetActiveRecursively(false);
-                Destroy(gameObject);
+                
+                gameObject.transform.SetParent(backupButtons.transform);
+                backupObject.GetComponent<ObjectSelector>().selectObjectButton = gameObject;
+                //Destroy(gameObject);
             }
         }
         if (!Controller.GetComponent<ObjectController>().isPlaceable)
@@ -89,7 +93,8 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
 
         if (!Controller.GetComponent<ObjectController>().inTheBag)
         {
-           
+
+            //gameObject.transform.SetParent(backupButtons.transform);
             Destroy(backupObject);
         }
 

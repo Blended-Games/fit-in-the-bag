@@ -19,6 +19,7 @@ TagManager:
   - PlacedAfter
   - SpriteSlots
   - freeMoveArea
+  - backupButtons
   layers:
   - Default
   - TransparentFX

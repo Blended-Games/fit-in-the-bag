@@ -18,6 +18,9 @@ public class ObjectSelector : MonoBehaviour
     public bool objectisPlaced;
     public bool firstControl;
     private float dropPoint = 1f;
+    private bool selectedObjectInTheBag;
+    public GameObject selectObjectButton;
+    private static float backupPoints;
 
     private void Awake()
     {
@@ -26,15 +29,34 @@ public class ObjectSelector : MonoBehaviour
 
     private void Start()
     {
-        Controller = GameObject.FindGameObjectWithTag("GameController"); 
+        Controller = GameObject.FindGameObjectWithTag("GameController");
+        backupPoints = dropPoint / SpawnController.GetComponent<UI_NewSpawnerControl>().spawnCount;
+        Debug.Log(backupPoints);
     }
 
     private void OnMouseDown()
-     {
-         Controller.GetComponent<ObjectController>().selectedObject = this.gameObject;
-         gameObject.layer = 2;
-         transform.position = dropPosition;
-     }
+    {
+
+        if (selectedObjectInTheBag)
+        {
+            Debug.Log("isInTheBag");
+            selectObjectButton.transform.SetParent(SpawnController.transform);
+
+            Controller.GetComponent<ObjectController>().levelPoint -= backupPoints;
+           
+            Debug.Log(backupPoints);
+            selectedObjectInTheBag = false;
+            Destroy(gameObject);
+        }
+        else
+        {
+            Controller.GetComponent<ObjectController>().selectedObject = this.gameObject;
+            gameObject.layer = 2;
+            transform.position = dropPosition;
+        }
+
+
+    }
 
      private void OnMouseUp()
      {
@@ -44,10 +66,10 @@ public class ObjectSelector : MonoBehaviour
             if (Controller.GetComponent<ObjectController>().inTheBag)
             {
                 Controller.GetComponent<ObjectController>().levelPoint += dropPoint / SpawnController.GetComponent<UI_NewSpawnerControl>().spawnCount;
-
+                
                 gameObject.layer = 0;
                 objectisPlaced = true;
-
+                selectedObjectInTheBag = true;
 
                 for (int i = 0; i < visualHolders.Length; i++)
                 {
@@ -58,13 +80,13 @@ public class ObjectSelector : MonoBehaviour
                 if (Controller.GetComponent<ObjectController>().bagID == 3)
                 {
                     this.transform.position = new Vector3(transform.position.x, 0.35f, transform.position.z);
-                    this.gameObject.GetComponent<BoxCollider>().enabled = false;
+                    //this.gameObject.GetComponent<BoxCollider>().enabled = false;
 
                 }
                 else
                 {
                     this.transform.position = new Vector3(transform.position.x, 0.05f, transform.position.z);
-                    this.gameObject.GetComponent<BoxCollider>().enabled = false;
+                    //this.gameObject.GetComponent<BoxCollider>().enabled = false;
 
                 }
 
@@ -87,6 +109,8 @@ public class ObjectSelector : MonoBehaviour
                 gameObject.layer = 0;
                 Controller.GetComponent<ObjectController>().levelPoint += dropPoint / SpawnController.GetComponent<UI_NewSpawnerControl>().spawnCount;
 
+                selectedObjectInTheBag = true;
+
                 for (int i = 0; i < visualHolders.Length; i++)
                 {
                     visualHolders[i].gameObject.transform.localPosition = visualsDropPositions;
@@ -95,12 +119,12 @@ public class ObjectSelector : MonoBehaviour
                 if (Controller.GetComponent<ObjectController>().bagID == 3)
                 {
                     this.transform.position = new Vector3(transform.position.x, 0.35f, transform.position.z);
-                    this.gameObject.GetComponent<BoxCollider>().enabled = false;
+                    //this.gameObject.GetComponent<BoxCollider>().enabled = false;
                 }
                 else
                 {
                     this.transform.position = new Vector3(transform.position.x, 0.05f, transform.position.z);
-                    this.gameObject.GetComponent<BoxCollider>().enabled = false;
+                    //this.gameObject.GetComponent<BoxCollider>().enabled = false;
                 }
             }
                 

@@ -324,6 +324,7 @@ MonoBehaviour:
   ID: 0
   objectisPlaced: 0
   firstControl: 0
+  selectObjectButton: {fileID: 0}
 --- !u!65 &8245495190238895682
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -757,6 +758,7 @@ MonoBehaviour:
   ID: 0
   objectisPlaced: 0
   firstControl: 0
+  selectObjectButton: {fileID: 0}
 --- !u!65 &8416989965122794902
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -897,7 +899,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.1328309, y: 4.631836, z: 3.0248334}
+  m_Size: {x: 1.1328309, y: 10, z: 3.0248334}
   m_Center: {x: 0.009991765, y: -0.00999999, z: 0.9848019}
 --- !u!114 &6010823766987250783
 MonoBehaviour:
@@ -923,6 +925,7 @@ MonoBehaviour:
   ID: 2
   objectisPlaced: 0
   firstControl: 0
+  selectObjectButton: {fileID: 0}
 --- !u!54 &6010823766987250778
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1073,6 +1076,7 @@ MonoBehaviour:
   ID: 0
   objectisPlaced: 0
   firstControl: 0
+  selectObjectButton: {fileID: 0}
 --- !u!65 &879949669529006923
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -382,7 +382,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.1620433, y: 1.3741102, z: 3.4713893}
+  m_Size: {x: 3.1620433, y: 10, z: 3.4713893}
   m_Center: {x: -0.015206218, y: 1.03, z: 1.2007828}
 --- !u!114 &2868380079376887662
 MonoBehaviour:
@@ -408,6 +408,7 @@ MonoBehaviour:
   ID: 15
   objectisPlaced: 0
   firstControl: 0
+  selectObjectButton: {fileID: 0}
 --- !u!54 &2868380079376887649
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -89,6 +89,7 @@ public class ObjectController : MonoBehaviour
         }
         else
         {
+            closeBagButton.SetActive(false);
             nextLevelButton.SetActive(false);
         }
         SpawnController.GetComponent<UI_NewSpawnerControl>().LevelNumber = bagID;

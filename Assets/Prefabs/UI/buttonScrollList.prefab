@@ -131,6 +131,7 @@ MonoBehaviour:
   oneByeOne: 0
   LevelNumber: 0
   difficulty: 0
+  categoryID: 0
   levelList:
   - title: Level-1
     easy:
