@@ -135,4 +135,7 @@ MonoBehaviour:
   - title: SportsBag
     selectedImage:
     - {fileID: 21300000, guid: 20093a9d44beede409a02d16854ecf40, type: 3}
+  - title: SportsBag
+    selectedImage:
+    - {fileID: 21300000, guid: 20093a9d44beede409a02d16854ecf40, type: 3}
     - {fileID: 21300000, guid: 20093a9d44beede409a02d16854ecf40, type: 3}
