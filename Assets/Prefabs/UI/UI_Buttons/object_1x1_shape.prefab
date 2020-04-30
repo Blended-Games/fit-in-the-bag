@@ -132,44 +132,54 @@ MonoBehaviour:
     selectedImage:
     - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
     - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
-  - title: bagaj
-    selectedImage:
     - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
-    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
-  - title: alisveris
-    selectedImage:
-    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
-    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
-    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
-    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
-  - title: beslenme
+  - title: Shooping
     selectedImage:
     - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
     - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
     - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
-    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
-    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
-    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
-    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
-    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
-    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
-  - title: hediyeKutusu
+  - title: present
     selectedImage:
     - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
     - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
     - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
-  - title: isCantasi
+  - title: breif
     selectedImage:
     - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
     - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
     - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
     - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
-  - title: okul
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+  - title: school
     selectedImage:
     - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
-  - title: SportsBag
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+  - title: launch
     selectedImage:
     - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
     - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
     - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
     - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+  - title: deep
+    selectedImage:
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+  - title: palette
+    selectedImage:
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+  - title: breif
+    selectedImage:
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+  - title: sport
+    selectedImage:
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+  bagNumber: 0
