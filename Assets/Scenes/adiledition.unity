@@ -202,6 +202,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7076533255735192993, guid: 0a1e02647df9bc546bd7e9f3a3e73d6e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7480776899925694936, guid: 0a1e02647df9bc546bd7e9f3a3e73d6e,
         type: 3}
       propertyPath: m_IsActive
@@ -1478,7 +1483,7 @@ MonoBehaviour:
   isPlaceable: 1
   levelPoint: 0
   levelProgressBar: {fileID: 534467274}
-  bagID: 0
+  bagID: 2
   bags:
   - {fileID: 260524963}
   - {fileID: 260524962}
