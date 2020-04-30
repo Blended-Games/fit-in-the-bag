@@ -187,7 +187,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: BagHolders
       objectReference: {fileID: 0}
+    - target: {fileID: 1785396059908173674, guid: 0a1e02647df9bc546bd7e9f3a3e73d6e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2300758659143192570, guid: 0a1e02647df9bc546bd7e9f3a3e73d6e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2369915978780595878, guid: 0a1e02647df9bc546bd7e9f3a3e73d6e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3159858174497703450, guid: 0a1e02647df9bc546bd7e9f3a3e73d6e,
         type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -198,6 +213,11 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4570566095657210237, guid: 0a1e02647df9bc546bd7e9f3a3e73d6e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7445807140255104900, guid: 0a1e02647df9bc546bd7e9f3a3e73d6e,
         type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -345,6 +365,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534467272}
   m_CullTransparentMesh: 0
+--- !u!1 &576009319 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7445807140255104900, guid: 0a1e02647df9bc546bd7e9f3a3e73d6e,
+    type: 3}
+  m_PrefabInstance: {fileID: 260524955}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &615342379
 GameObject:
   m_ObjectHideFlags: 0
@@ -599,6 +625,12 @@ RectTransform:
   m_AnchoredPosition: {x: 960, y: 16361.451}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &728017178 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3159858174497703450, guid: 0a1e02647df9bc546bd7e9f3a3e73d6e,
+    type: 3}
+  m_PrefabInstance: {fileID: 260524955}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &749438621
 GameObject:
   m_ObjectHideFlags: 0
@@ -1456,6 +1488,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1380743405}
   m_CullTransparentMesh: 0
+--- !u!1 &1481969770 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1785396059908173674, guid: 0a1e02647df9bc546bd7e9f3a3e73d6e,
+    type: 3}
+  m_PrefabInstance: {fileID: 260524955}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1514280810
 GameObject:
   m_ObjectHideFlags: 0
@@ -1523,6 +1561,9 @@ MonoBehaviour:
   - {fileID: 260524959}
   - {fileID: 260524958}
   - {fileID: 260524956}
+  - {fileID: 1481969770}
+  - {fileID: 728017178}
+  - {fileID: 576009319}
   nextLevelButton: {fileID: 1256300343}
   closeBagButton: {fileID: 749438621}
   levelComplete: 0
