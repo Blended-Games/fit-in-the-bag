@@ -20,25 +20,34 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
     public CategoryImageList[]categoryImages;
     private int random;
     private int backRandom;
+    public int bagNumber;
 
     void Awake()
     {
         SpawnController = GameObject.FindGameObjectWithTag("SpawnController");
         Controller = GameObject.FindGameObjectWithTag("GameController");
-
+        bagNumber = Controller.GetComponent<ObjectController>().bagID;
         for (int i = 0; i < categoryImages.Length; i++)
-        { 
-            backRandom = categoryImages[0].selectedImage.Length;
+        {
+            backRandom = categoryImages[bagNumber].selectedImage.Length;
+
             //Debug.Log(random);
         }
+        
 
-        random = Random.Range(0, backRandom);
         //Debug.Log("Image List Count : " +categoryImages.Length);
         //Debug.Log("Random number : " + random);
     }
 
+    public void Update()
+    {
+      
+    }
+
     private void Start()
     {
+        random = Random.Range(0, backRandom);
+        Debug.Log(backRandom + " image length first");
         GetComponent<Image>().sprite = categoryImages[SpawnController.GetComponent<UI_NewSpawnerControl>().categoryID].selectedImage[random];
     }
 

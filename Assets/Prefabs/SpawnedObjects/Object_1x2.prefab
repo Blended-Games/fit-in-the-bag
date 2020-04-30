@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5872170918808682206}
   m_Layer: 0
-  m_Name: bavul
+  m_Name: Bagaj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42,7 +42,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9210926992902525270}
   m_Layer: 0
-  m_Name: tamir
+  m_Name: Spor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -124,7 +124,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3069322358372236365}
   m_Layer: 0
-  m_Name: okul
+  m_Name: Hediye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -157,7 +157,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8701553823624644824}
   m_Layer: 0
-  m_Name: beslenme
+  m_Name: Alisveris
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -190,7 +190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8998562927692855560}
   m_Layer: 0
-  m_Name: deepfreze
+  m_Name: Beslenme
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -370,7 +370,7 @@ GameObject:
   m_Component:
   - component: {fileID: 996715231991407411}
   m_Layer: 0
-  m_Name: hediye
+  m_Name: Travel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1080,7 +1080,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4131236980234817676}
   m_Layer: 0
-  m_Name: palet
+  m_Name: Okul
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1561,7 +1561,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: b54c6cd6f32682e45946ec20222f5ecb,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 2.153
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b54c6cd6f32682e45946ec20222f5ecb,
         type: 3}
@@ -1606,17 +1606,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: b54c6cd6f32682e45946ec20222f5ecb,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3097
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b54c6cd6f32682e45946ec20222f5ecb,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.720335
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b54c6cd6f32682e45946ec20222f5ecb,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.3097
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: -1504981713932161579, guid: b54c6cd6f32682e45946ec20222f5ecb,
         type: 3}
@@ -2116,7 +2116,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 672dc11441037d04e82fa08aa5e674be,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 672dc11441037d04e82fa08aa5e674be,
         type: 3}
