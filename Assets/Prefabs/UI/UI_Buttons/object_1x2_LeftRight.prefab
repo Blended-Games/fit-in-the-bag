@@ -128,41 +128,61 @@ MonoBehaviour:
   isClicked: 0
   ID: 1
   categoryImages:
-  - title: hediye
+  - title: travel
     selectedImage:
-    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
-    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
-    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
-  - title: bavul
+    - {fileID: 21300000, guid: 89e3aa3735f0c4e5ba5f523693ca617a, type: 3}
+    - {fileID: 21300000, guid: 68f9a7f966bdb41c0b9299792e8ff5ad, type: 3}
+    - {fileID: 21300000, guid: 11245064eae4c45ca9939cafd7a5f5e5, type: 3}
+  - title: shooping
     selectedImage:
-    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
-    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
-  - title: beslenme
+    - {fileID: 21300000, guid: 78f9467a3e1dd4dc8b5d4e70613afb8d, type: 3}
+    - {fileID: 21300000, guid: 89e3aa3735f0c4e5ba5f523693ca617a, type: 3}
+    - {fileID: 21300000, guid: e0834ff94b9134d9caa3599ee2e616ac, type: 3}
+  - title: present
     selectedImage:
-    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
-    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
-    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
-  - title: deepfreze
+    - {fileID: 21300000, guid: 89e3aa3735f0c4e5ba5f523693ca617a, type: 3}
+    - {fileID: 21300000, guid: 78f9467a3e1dd4dc8b5d4e70613afb8d, type: 3}
+    - {fileID: 21300000, guid: e0834ff94b9134d9caa3599ee2e616ac, type: 3}
+  - title: breif
     selectedImage:
-    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
-    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
+    - {fileID: 21300000, guid: 3f52271309d5f47159ba5d743f6aa789, type: 3}
+    - {fileID: 21300000, guid: 11245064eae4c45ca9939cafd7a5f5e5, type: 3}
+    - {fileID: 21300000, guid: e0834ff94b9134d9caa3599ee2e616ac, type: 3}
+    - {fileID: 21300000, guid: 0e17f14d75efd4388924f7ab88aa2819, type: 3}
+    - {fileID: 21300000, guid: 144915c92371a4ffc8e910f8fcb6e2c3, type: 3}
   - title: okul
     selectedImage:
-    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
-    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
-    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
-  - title: palet
+    - {fileID: 21300000, guid: d83bd0ba8f55e4daab150d323f22f6a7, type: 3}
+    - {fileID: 21300000, guid: 1fbd8beeab2464c048de73c7f192ec58, type: 3}
+    - {fileID: 21300000, guid: 02366843ee23947c8beae53e2208e5a0, type: 3}
+  - title: launch
     selectedImage:
-    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
-  - title: tamir
+    - {fileID: 21300000, guid: 69e502751c43946a9ac70ff75dd9bb32, type: 3}
+    - {fileID: 21300000, guid: 78f9467a3e1dd4dc8b5d4e70613afb8d, type: 3}
+    - {fileID: 21300000, guid: 1fbd8beeab2464c048de73c7f192ec58, type: 3}
+    - {fileID: 21300000, guid: 02366843ee23947c8beae53e2208e5a0, type: 3}
+    - {fileID: 21300000, guid: 2c7dfe7cd47924eaabdde81fd8fbd7c4, type: 3}
+    - {fileID: 21300000, guid: c69356306b75547039faceb6f06289a9, type: 3}
+    - {fileID: 21300000, guid: e0834ff94b9134d9caa3599ee2e616ac, type: 3}
+  - title: deep
     selectedImage:
-    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
-    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
-    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
-    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
-  - title: tamir
+    - {fileID: 21300000, guid: 69e502751c43946a9ac70ff75dd9bb32, type: 3}
+    - {fileID: 21300000, guid: 78f9467a3e1dd4dc8b5d4e70613afb8d, type: 3}
+  - title: pallette
     selectedImage:
+    - {fileID: 21300000, guid: ea4c18a6486624c729894734ad136476, type: 3}
     - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
     - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
     - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
-    - {fileID: 21300000, guid: a2ce93222bf06894b990d31632bfe27c, type: 3}
+  - title: breif
+    selectedImage:
+    - {fileID: 21300000, guid: 3f52271309d5f47159ba5d743f6aa789, type: 3}
+    - {fileID: 21300000, guid: 11245064eae4c45ca9939cafd7a5f5e5, type: 3}
+    - {fileID: 21300000, guid: e0834ff94b9134d9caa3599ee2e616ac, type: 3}
+    - {fileID: 21300000, guid: 0e17f14d75efd4388924f7ab88aa2819, type: 3}
+    - {fileID: 21300000, guid: 144915c92371a4ffc8e910f8fcb6e2c3, type: 3}
+  - title: sport
+    selectedImage:
+    - {fileID: 21300000, guid: 78f9467a3e1dd4dc8b5d4e70613afb8d, type: 3}
+    - {fileID: 21300000, guid: 11245064eae4c45ca9939cafd7a5f5e5, type: 3}
+  bagNumber: 0
