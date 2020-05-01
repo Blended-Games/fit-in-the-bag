@@ -1,9 +1,2 @@
 Base path: 'C:/Program Files/Unity/2019.2.17f1/Editor/Data', plugins path 'C:/Program Files/Unity/2019.2.17f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
-Cmd: preprocess
-  insize=3707 outsize=2225 ok=1
-Cmd: preprocess
-  error: 1 plat 21 at (133): Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation.
-  insize=3120 outsize=3297 ok=1
-Cmd: preprocess
-  insize=1561 outsize=1558 ok=1

@@ -162,6 +162,6 @@ MonoBehaviour:
     - {fileID: 21300000, guid: d7e2196c22da14fc9a44e8fcd2a93b25, type: 3}
   - title: Sports
     selectedImage:
-    - {fileID: 21300000, guid: 70675a1376dcd0b43b9e09983f515f63, type: 3}
-    - {fileID: 21300000, guid: 70675a1376dcd0b43b9e09983f515f63, type: 3}
+    - {fileID: 21300000, guid: 1cfc4e51dfcb74246a20253b88ee3f81, type: 3}
+    - {fileID: 21300000, guid: d7e2196c22da14fc9a44e8fcd2a93b25, type: 3}
   bagNumber: 0

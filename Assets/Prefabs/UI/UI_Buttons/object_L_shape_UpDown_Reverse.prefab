@@ -128,48 +128,47 @@ MonoBehaviour:
   isClicked: 0
   ID: 13
   categoryImages:
-  - title: travel
+  - title: Travel
     selectedImage:
-    - {fileID: 21300000, guid: 6e9fd93384a15451d87413392c74c836, type: 3}
-    - {fileID: 21300000, guid: 05d6c6941ea384dd9bd2774de9bcc525, type: 3}
     - {fileID: 21300000, guid: 5ab79dab3d5074923945afb75f4a266f, type: 3}
-  - title: shooping
+    - {fileID: 21300000, guid: 05d6c6941ea384dd9bd2774de9bcc525, type: 3}
+  - title: Shopping
     selectedImage:
     - {fileID: 21300000, guid: 6e9fd93384a15451d87413392c74c836, type: 3}
-  - title: present
+  - title: Present
     selectedImage:
-    - {fileID: 21300000, guid: 0ee4ee27e3c1d48cc9d54e2971466352, type: 3}
-    - {fileID: 21300000, guid: f98213f08d9d9ca47bbd18d4f0b2bbd3, type: 3}
     - {fileID: 21300000, guid: 89e3aa3735f0c4e5ba5f523693ca617a, type: 3}
-  - title: breif
+    - {fileID: 21300000, guid: 0ee4ee27e3c1d48cc9d54e2971466352, type: 3}
+    - {fileID: 21300000, guid: b1aea1e33989447418d8db0bfb5863be, type: 3}
+  - title: Breif
     selectedImage:
     - {fileID: 21300000, guid: 0ee4ee27e3c1d48cc9d54e2971466352, type: 3}
-  - title: school
+  - title: School
     selectedImage:
-    - {fileID: 21300000, guid: 0ee4ee27e3c1d48cc9d54e2971466352, type: 3}
-    - {fileID: 21300000, guid: a65947eebe571474fb5c83ccff1cdbb2, type: 3}
     - {fileID: 21300000, guid: 25b7b13b6e585456ab9d38cec9cab77e, type: 3}
+    - {fileID: 21300000, guid: a65947eebe571474fb5c83ccff1cdbb2, type: 3}
     - {fileID: 21300000, guid: 6e9fd93384a15451d87413392c74c836, type: 3}
+    - {fileID: 21300000, guid: 0ee4ee27e3c1d48cc9d54e2971466352, type: 3}
     - {fileID: 21300000, guid: cad5819234fd28c4ca64291da9e95b31, type: 3}
   - title: launch
     selectedImage:
     - {fileID: 21300000, guid: 89e3aa3735f0c4e5ba5f523693ca617a, type: 3}
-    - {fileID: 21300000, guid: 0ee4ee27e3c1d48cc9d54e2971466352, type: 3}
     - {fileID: 21300000, guid: 25b7b13b6e585456ab9d38cec9cab77e, type: 3}
-    - {fileID: 21300000, guid: 6e9fd93384a15451d87413392c74c836, type: 3}
-  - title: deep
+    - {fileID: 21300000, guid: 4b7cd7343ff394ee6908c02dd0132191, type: 3}
+    - {fileID: 21300000, guid: 47daa493b57c04b549d81c700d21c861, type: 3}
+  - title: Deep
     selectedImage:
     - {fileID: 21300000, guid: 89e3aa3735f0c4e5ba5f523693ca617a, type: 3}
-    - {fileID: 21300000, guid: 0ee4ee27e3c1d48cc9d54e2971466352, type: 3}
     - {fileID: 21300000, guid: 25b7b13b6e585456ab9d38cec9cab77e, type: 3}
     - {fileID: 21300000, guid: 6e9fd93384a15451d87413392c74c836, type: 3}
-  - title: pallette
+  - title: Pollette
     selectedImage:
+    - {fileID: 21300000, guid: 05d6c6941ea384dd9bd2774de9bcc525, type: 3}
     - {fileID: 21300000, guid: 117a7b6d2df84442eafbb8bcf461b8c4, type: 3}
-  - title: breif
+  - title: Breif
     selectedImage:
     - {fileID: 21300000, guid: 0ee4ee27e3c1d48cc9d54e2971466352, type: 3}
-  - title: sport
+  - title: SportsBag
     selectedImage:
     - {fileID: 21300000, guid: 6e9fd93384a15451d87413392c74c836, type: 3}
     - {fileID: 21300000, guid: 05d6c6941ea384dd9bd2774de9bcc525, type: 3}

@@ -133,14 +133,14 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 646f27c2aa0d7410dba4c211b141674d, type: 3}
     - {fileID: 21300000, guid: f56308b5de6a842cca4053b2c8fe657f, type: 3}
     - {fileID: 21300000, guid: e91c8a6007a1847ec8a9b8fcf2f3f7db, type: 3}
-  - title: shoop
+  - title: Shop
     selectedImage:
     - {fileID: 21300000, guid: e91c8a6007a1847ec8a9b8fcf2f3f7db, type: 3}
     - {fileID: 21300000, guid: 4b7cd7343ff394ee6908c02dd0132191, type: 3}
     - {fileID: 21300000, guid: 646f27c2aa0d7410dba4c211b141674d, type: 3}
     - {fileID: 21300000, guid: e39191103dbe541b2b4c84c2cc95ee0e, type: 3}
     - {fileID: 21300000, guid: 79d71a527493842c5be1ddaad33614af, type: 3}
-  - title: present
+  - title: Present
     selectedImage:
     - {fileID: 21300000, guid: 5cfcd88f020dd4630a21a4d74bde0e79, type: 3}
     - {fileID: 21300000, guid: 51b4f68408c364060b153cf45269fb1e, type: 3}
@@ -149,13 +149,13 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 646f27c2aa0d7410dba4c211b141674d, type: 3}
     - {fileID: 21300000, guid: e91c8a6007a1847ec8a9b8fcf2f3f7db, type: 3}
     - {fileID: 21300000, guid: 5cfcd88f020dd4630a21a4d74bde0e79, type: 3}
-  - title: school
+  - title: School
     selectedImage:
     - {fileID: 21300000, guid: 646f27c2aa0d7410dba4c211b141674d, type: 3}
     - {fileID: 21300000, guid: 4b7cd7343ff394ee6908c02dd0132191, type: 3}
-    - {fileID: 21300000, guid: 4aacfa88fe97f6a4eb8e2b38b27fcbb1, type: 3}
+    - {fileID: 21300000, guid: 0ab0a384b7be649a7a2867e7a2d87b6a, type: 3}
     - {fileID: 21300000, guid: 36793764b98c449149f151123eb64ab8, type: 3}
-  - title: launch
+  - title: Launch
     selectedImage:
     - {fileID: 21300000, guid: 4b7cd7343ff394ee6908c02dd0132191, type: 3}
     - {fileID: 21300000, guid: 36793764b98c449149f151123eb64ab8, type: 3}
@@ -164,8 +164,8 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 36793764b98c449149f151123eb64ab8, type: 3}
   - title: pallette
     selectedImage:
-    - {fileID: 21300000, guid: e758414ecceccd74f8054670cc19d0f5, type: 3}
-  - title: breif
+    - {fileID: 21300000, guid: 605077743b861ce4da042ce493d7409f, type: 3}
+  - title: Breif
     selectedImage:
     - {fileID: 21300000, guid: 646f27c2aa0d7410dba4c211b141674d, type: 3}
     - {fileID: 21300000, guid: e91c8a6007a1847ec8a9b8fcf2f3f7db, type: 3}

@@ -144,15 +144,14 @@ MonoBehaviour:
     - {fileID: 21300000, guid: c5cf6666404504fdf8f831f27f51e8f7, type: 3}
   - title: breif
     selectedImage:
-    - {fileID: 21300000, guid: 5da8ea8955fa14c82851980aa06dee69, type: 3}
-    - {fileID: 21300000, guid: 78841740ef6824dc9a2531f078950179, type: 3}
-    - {fileID: 21300000, guid: 5fb831aa164cb4d658b73c1b377e52ed, type: 3}
-    - {fileID: 21300000, guid: c5cf6666404504fdf8f831f27f51e8f7, type: 3}
     - {fileID: 21300000, guid: 330d14cf326014490aa4cedd9ce9cfd3, type: 3}
     - {fileID: 21300000, guid: 4f577f2631a374c8bbcc41cf6d665cf3, type: 3}
     - {fileID: 21300000, guid: 604d1bdfe922c4370b9494a32a1db599, type: 3}
     - {fileID: 21300000, guid: 9408e5402b66a4371a43a044de841f0f, type: 3}
-    - {fileID: 21300000, guid: 177dbadbf34f947a8a52931fc7a7b06e, type: 3}
+    - {fileID: 21300000, guid: c5cf6666404504fdf8f831f27f51e8f7, type: 3}
+    - {fileID: 21300000, guid: 5fb831aa164cb4d658b73c1b377e52ed, type: 3}
+    - {fileID: 21300000, guid: 78841740ef6824dc9a2531f078950179, type: 3}
+    - {fileID: 21300000, guid: 5da8ea8955fa14c82851980aa06dee69, type: 3}
   - title: school
     selectedImage:
     - {fileID: 21300000, guid: 78841740ef6824dc9a2531f078950179, type: 3}
@@ -176,12 +175,14 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 2fb2b39bbeba546af8318422b91e7cb4, type: 3}
   - title: breif
     selectedImage:
-    - {fileID: 21300000, guid: 604d1bdfe922c4370b9494a32a1db599, type: 3}
     - {fileID: 21300000, guid: 78841740ef6824dc9a2531f078950179, type: 3}
+    - {fileID: 21300000, guid: 604d1bdfe922c4370b9494a32a1db599, type: 3}
     - {fileID: 21300000, guid: 9408e5402b66a4371a43a044de841f0f, type: 3}
     - {fileID: 21300000, guid: 2fb2b39bbeba546af8318422b91e7cb4, type: 3}
   - title: sport
     selectedImage:
-    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
-    - {fileID: 21300000, guid: 3f4dcf7cc67dbf147a1807b3c7282aaa, type: 3}
+    - {fileID: 21300000, guid: 604d1bdfe922c4370b9494a32a1db599, type: 3}
+    - {fileID: 21300000, guid: 78841740ef6824dc9a2531f078950179, type: 3}
+    - {fileID: 21300000, guid: 9408e5402b66a4371a43a044de841f0f, type: 3}
+    - {fileID: 21300000, guid: 2fb2b39bbeba546af8318422b91e7cb4, type: 3}
   bagNumber: 0

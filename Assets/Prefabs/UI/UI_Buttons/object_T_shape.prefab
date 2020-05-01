@@ -128,12 +128,12 @@ MonoBehaviour:
   isClicked: 0
   ID: 11
   categoryImages:
-  - title: alisveris
+  - title: Travel
     selectedImage:
     - {fileID: 21300000, guid: 55c0e3d3de00d45989ff551a741e39c5, type: 3}
     - {fileID: 21300000, guid: c261b2f63e3064c4b8fdcb727d8adc9b, type: 3}
     - {fileID: 21300000, guid: 3c03ed707026c4ca5948ceb5e8e1bcb0, type: 3}
-  - title: bagaj
+  - title: Shopping
     selectedImage:
     - {fileID: 21300000, guid: 41a6d196ed0fe46cd88d820e5f3a1d24, type: 3}
     - {fileID: 21300000, guid: 4e511e41063df467bbff298b346c62fe, type: 3}
@@ -142,21 +142,21 @@ MonoBehaviour:
     - {fileID: 21300000, guid: faf14b195d39246dbaab26fbbf61d6b4, type: 3}
     - {fileID: 21300000, guid: 820d271e4d03b491d9f6eda61b661a6f, type: 3}
     - {fileID: 21300000, guid: 05d8940550818446ea2c0fea59215172, type: 3}
-  - title: bagaj
+  - title: Present
     selectedImage:
     - {fileID: 21300000, guid: 3c03ed707026c4ca5948ceb5e8e1bcb0, type: 3}
     - {fileID: 21300000, guid: dd9504bc4835f4740b6d10b5069fa211, type: 3}
-  - title: bagaj
+  - title: Breif
     selectedImage:
     - {fileID: 21300000, guid: 3c03ed707026c4ca5948ceb5e8e1bcb0, type: 3}
     - {fileID: 21300000, guid: 7f7198a657def4759b2a9d8d9c59a9a5, type: 3}
-  - title: bagaj
+  - title: School
     selectedImage:
     - {fileID: 21300000, guid: 4e511e41063df467bbff298b346c62fe, type: 3}
     - {fileID: 21300000, guid: faf14b195d39246dbaab26fbbf61d6b4, type: 3}
     - {fileID: 21300000, guid: 7f7198a657def4759b2a9d8d9c59a9a5, type: 3}
     - {fileID: 21300000, guid: 15ccbdda0e84c44e6886bab3c59c404c, type: 3}
-  - title: bagaj
+  - title: Launch
     selectedImage:
     - {fileID: 21300000, guid: 4e511e41063df467bbff298b346c62fe, type: 3}
     - {fileID: 21300000, guid: dd9504bc4835f4740b6d10b5069fa211, type: 3}
@@ -164,19 +164,19 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 15ccbdda0e84c44e6886bab3c59c404c, type: 3}
     - {fileID: 21300000, guid: 7f7198a657def4759b2a9d8d9c59a9a5, type: 3}
     - {fileID: 21300000, guid: cab895b77d71f47038496157090157f6, type: 3}
-  - title: bagaj
+  - title: Deep
     selectedImage:
     - {fileID: 21300000, guid: 4e511e41063df467bbff298b346c62fe, type: 3}
     - {fileID: 21300000, guid: 15ccbdda0e84c44e6886bab3c59c404c, type: 3}
     - {fileID: 21300000, guid: cab895b77d71f47038496157090157f6, type: 3}
-  - title: bagaj
+  - title: Pallette
     selectedImage:
     - {fileID: 21300000, guid: f63640f4e3596e34699692eddb22a571, type: 3}
-  - title: bagaj
+  - title: Breif
     selectedImage:
     - {fileID: 21300000, guid: 3c03ed707026c4ca5948ceb5e8e1bcb0, type: 3}
     - {fileID: 21300000, guid: 7f7198a657def4759b2a9d8d9c59a9a5, type: 3}
-  - title: bagaj
+  - title: Sport
     selectedImage:
     - {fileID: 21300000, guid: c261b2f63e3064c4b8fdcb727d8adc9b, type: 3}
   bagNumber: 0
