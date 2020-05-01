@@ -84,7 +84,7 @@ public class ObjectController : MonoBehaviour
         else if (levelPoint > 0.6f)
         {
             closeBagButton.SetActive(true);
-            Debug.Log("ClosebagBTN Active");
+            //Debug.Log("ClosebagBTN Active");
          
         }
         else

@@ -31,7 +31,7 @@ public class ObjectSelector : MonoBehaviour
     {
         Controller = GameObject.FindGameObjectWithTag("GameController");
         backupPoints = dropPoint / SpawnController.GetComponent<UI_NewSpawnerControl>().spawnCount;
-        Debug.Log(backupPoints);
+        //Debug.Log(backupPoints);
     }
 
     private void OnMouseDown()

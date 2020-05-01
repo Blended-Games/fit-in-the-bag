@@ -27,12 +27,7 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
         SpawnController = GameObject.FindGameObjectWithTag("SpawnController");
         Controller = GameObject.FindGameObjectWithTag("GameController");
         bagNumber = Controller.GetComponent<ObjectController>().bagID;
-        for (int i = 0; i < categoryImages.Length; i++)
-        {
-            backRandom = categoryImages[bagNumber].selectedImage.Length;
-
-            //Debug.Log(random);
-        }
+ 
         
 
         //Debug.Log("Image List Count : " +categoryImages.Length);
@@ -41,14 +36,21 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
 
     public void Update()
     {
-      
+    
     }
 
     private void Start()
     {
+
+        for (int i = 0; i < categoryImages.Length; i++)
+        {
+            backRandom = categoryImages[bagNumber].selectedImage.Length;
+
+            //Debug.Log(random);
+        }
         random = Random.Range(0, backRandom);
-        Debug.Log(backRandom + " image length first");
-        GetComponent<Image>().sprite = categoryImages[SpawnController.GetComponent<UI_NewSpawnerControl>().categoryID].selectedImage[random];
+        Debug.Log(random + " image length first");
+        GetComponent<Image>().sprite = categoryImages[bagNumber].selectedImage[random];
     }
 
     public void OnPointerDown(PointerEventData eventData)
@@ -72,7 +74,7 @@ public class UI_NewButtonController : MonoBehaviour,IPointerDownHandler,IPointer
             Controller.GetComponent<ObjectController>().selectedObject = spawned;
 
             backupObject = spawned;
-            backupObject.GetComponent<ObjectSelector>().matchCategory(SpawnController.GetComponent<UI_NewSpawnerControl>().categoryID, random);
+            backupObject.GetComponent<ObjectSelector>().matchCategory(bagNumber, random);
         }
     }
 

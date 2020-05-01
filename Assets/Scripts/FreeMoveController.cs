@@ -18,7 +18,7 @@ public class FreeMoveController : MonoBehaviour
         if (other.tag == "SelectedObject")
         {
             Controller.GetComponent<ObjectController>().inTheBag = false;
-            Debug.Log("FreeMove");
+            //Debug.Log("FreeMove");
         }
     }
 }
